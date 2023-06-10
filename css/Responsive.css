@@ -1,0 +1,181 @@
+@media(min-width:320px) and (max-width:991px){
+    .container{
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+        
+    }
+    
+    nav ul{
+        flex-direction: column;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    nav label{
+        display: block;
+        background: transparent;
+        border: 0;
+        top: 50px;
+        right: 10px;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    nav input:checked ~ .navitems{
+        display: block;
+    }
+    
+    nav input:checked ~ .buttons{
+        display: block;
+    }
+
+    .logo{
+        width: 30%;
+    }
+    .navitems{
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: none;
+    }
+    .buttons{
+        width: 94%;
+        text-align: left;
+        display: none;
+    }
+    .buttons a {
+        margin-left: -7px;
+        margin-right: 10px;
+    }
+    .banner {
+        padding: 15px 0;
+        
+    }
+
+    .banner_text a {
+    
+        padding: 15px 35px;
+    }
+
+
+    .banner_text{
+        width: 100%;
+    }
+
+    .banner_text h1 {
+        width: auto;
+        font-size: 24px;
+    }
+    .banner_text p {
+        width: auto;
+        font-size: 16px;
+        
+        padding-top: 15px;
+        margin-bottom: 19px;
+
+    }
+    .banner_img {
+        
+        display: none;
+    }
+    .clt {
+        margin-top: 32px;
+    }
+
+    .clt .colection h2{
+        font-size: 35px;
+    }
+
+    .clt .colection p{
+        font-size: 15px;
+    }
+    .clt .item {
+        width: 100%;
+        
+        margin-bottom: 20px;
+    }
+    .clt .item .names{
+        bottom: 25px;
+    }
+    .fassion {
+        margin-top: 19px;
+        margin-bottom: 32px;
+        
+    }
+    
+    .fassion .flex .fassion_img {
+        width: 100%;
+        
+    }
+    .fassion .flex .fassion_img .fassion_one {
+        width: 100%;
+        border-radius: 10px;
+        
+    }
+    .fassion .flex .fassion_text {
+        width: 100%;
+        
+    }
+    .fassion .flex .fassion_text h2 {
+        width: auto;
+        font-size: 27px;
+        margin-top: 19px;
+    }
+    .fassion .flex .fassion_text p {
+        width: auto;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 16px;
+    
+    }
+    .fassion .flex .fassion_img .fassion_two {
+    
+        display: none;
+    }
+    .fassion .flex .fassion_text .flex {
+    position: static;
+    }
+
+    .fassion .flex .fassion_text .counter_itema::after {
+        position: static;
+        
+    }
+
+    .fassion .flex .fassion_text .counter_itemb::after {
+        position: static;
+        
+    }
+    #seller .sler_text {
+        width: 100%;
+        
+    }
+    #seller .sler_text h2 {
+        width: auto;
+        font-size: 32px;
+    }
+    #seller .sler_text p {
+    
+        width: auto;
+        font-size: 14px;
+    }
+    #seller .sler_text a {
+        padding: 21px 67px;
+        font-size: 14px;
+    }
+    #seller .seller_item {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #seller .sler_text img{
+        display: none;
+    }
+    #seller .seller_item ul {
+        column-gap: 10px;
+    }
+
+:root {
+    overflow-x: hidden;
+}
+
+}

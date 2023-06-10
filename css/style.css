@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+list-style: none;
+}
+
+img{
+    vertical-align: middle; 
+}
+
+.pop{
+    font-family: 'Poppins', sans-serif;
+}
+.frank_ruhi{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.podkova{
+    font-family: 'Podkova', serif;
+}
+
+.font_22{
+    font-size: 22px;
+}
+
+.font_24{
+    font-size: 24px;
+}
+
+.font_28{
+    font-size: 28px;
+}
+
+.font_64{
+    font-size: 64px;
+}
+.font_regular{
+    font-weight: 400;
+}
+.font_semibold{
+    font-weight: 600;
+}
+
+.font_bold{
+    font-weight: 700;
+}
+.font_Medium{
+    font-weight: 500;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+/* common css end */
+/* navbar css start */
+nav{
+    padding: 46px 0;
+    background-color: #FAE3B6;
+}
+.logo{
+    width: 15%;
+}
+.navitems{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav label{
+    display: none;
+}
+nav input{
+    display: none;
+}
+
+.navitems ul{
+    column-gap: 59px;
+    justify-content: center;
+}
+.buttons{
+    width: 25%;
+    text-align: right;
+
+    
+}
+.buttons a{
+    border: 1px solid #FFD687;
+    padding: 10px 28px;
+    margin-left: 15px;
+    color: #000;
+    transition: 0.4s;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px -22px rgba(183,174,34,0.33);
+-webkit-box-shadow: 0px 0px 5px -22px rgba(183,174,34,0.33);
+-moz-box-shadow: 0px 0px 5px -22px rgba(183,174,34,0.33);
+}
+.buttons a:hover{
+    background: #FDBB57;
+}
+/* navbar css end */
+/* banner part css start */
+.banner{
+    padding: 102px 0;
+    background-color: #FAE3B6;
+}
+.banner_text{
+    width: 50%;
+}
+.banner_text h1{
+    width: 554px;
+}
+
+.banner_text p{
+    width: 540px;
+    padding-top: 38px;
+    margin-bottom: 76px;
+}
+.banner_text a{
+    background: #000;
+    color: #fff;
+    padding: 25px 92px;
+    
+}
+.banner_img{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.banner_img .img_one{
+    border-bottom-left-radius: 195px;
+    z-index: 2;
+}
+
+
+.banner_img .img_two{
+position: absolute;
+bottom: 0;
+left: 31px;
+z-index: 1;
+animation: move 5s infinite alternate;
+}
+@keyframes move{
+    from{
+        left: 0;
+    }to{
+        left: 31px;
+    }
+}
+
+/* banner part css end */
+/* collection css start */
+.clt{
+    margin-top: 217px;
+}
+.clt .colection{
+    text-align: center;
+    margin-bottom: 28px;
+    
+}
+.clt .flex{
+    justify-content: space-between;
+}
+.clt .item{
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+
+}
+.clt .item img{
+    width: 100%;
+    
+}
+.clt .item .names{
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    bottom: -61px;
+    left: 50%;
+    background: #fff;
+    transform: translateX(-50%);
+    padding: 10px 0;
+    border-radius: 20px;
+    transition: 0.4s;
+    
+}
+.clt .item:hover .names{
+    bottom: 15px;
+}
+/* collection css end */
+/* fassion css start */
+
+.fassion{
+    margin-top: 188px;
+    margin-bottom: 243px;
+}
+
+.fassion .flex{
+    column-gap: 124px;
+}
+    .fassion .flex .fassion_img{
+        width: 50%;
+        position: relative;
+        
+    }
+    
+    .fassion .flex .fassion_img .fassion_one{
+        width: 100%;
+        border-top-left-radius: 150px;
+        position: relative;
+    }
+    .fassion .flex .fassion_img .fassion_two {
+        position: absolute;
+        right: -94px;
+        top: -56px;
+        z-index: -1;
+    }
+    
+    .fassion .flex .fassion_text{
+        width: 50%;
+        position: relative;
+    }
+    
+
+    .fassion .flex .fassion_text h2{
+        width: 437px;
+        margin-top: 90px;
+        
+    }
+    
+
+    .fassion .flex .fassion_text p{
+        width: 443px;
+        margin-top: 63px;
+        margin-bottom: 132px;
+        position: relative;
+        
+        
+    
+    }
+    .fassion .flex .fassion_text .flex {
+        background-color: #FEECC8;
+        column-gap: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 56px;
+        padding: 72px;
+        position: absolute;
+        left: -242px;
+        top: 541px;
+        z-index: -2;
+    }
+
+    
+    .fassion .flex .fassion_text .counter_itema::after {
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 143px;
+        left: 238px;
+        bottom: 43px;
+        background-color: #000;
+    }
+    .fassion .flex .fassion_text .counter_itemb::after {
+        position: absolute;
+        content: "";
+        width: 2px;
+        height: 143px;
+        left: 471px;
+        bottom: 47px;
+        background-color: #000;
+    }
+    
+    .fassion .flex .fassion_text .flex .counter_itemc h3{
+        width: 185px;
+    }
+                            
+/* fassion css end */
+
+#seller{
+    padding: 50px 0;
+    background-color: #CFA485;
+}
+
+#seller .flex{
+    column-gap: 31px;
+}
+
+#seller .sler_text{
+    width: 34%;
+position: relative;
+}
+#seller .sler_text img {
+	position: absolute;
+	left: 123px;
+	top: -191px;
+	z-index: -2;
+}
+
+#seller .sler_text h2{
+    width: 437px;
+color: #fff;
+}
+
+#seller .sler_text p{
+    padding-top: 43px;
+    width: 437px;
+    margin-bottom: 40px;
+    color: #fff;
+
+}
+
+#seller .seller_item{
+
+    width: 32%;
+background-color: #FFFFFF;
+
+border-top-right-radius: 60px;
+border-top-left-radius: 60px;
+}
+
+#seller .seller_item ul{
+display: flex;
+    column-gap: 55px;
+    padding-left: 22px;
+}
+
+#seller .seller_item ul .sell_lia{
+
+ color: #C4C4C4;
+}
+
+
+#seller .seller_item h5{
+
+    padding-left: 22px;
+}
+
+
+#seller .seller_item .icon{
+
+    color: #FFAF37;
+    padding-left: 22px;
+    padding-top: 10px;
+}
+
+#seller .seller_item img{
+
+    width: 100%;
+
+border-top-right-radius: 60px;
+border-top-left-radius: 60px;
+
+}
+
+
+#seller .sler_text a{
+    padding: 25px 100px;
+background-color: #000;
+color: #fff;
+
+}
